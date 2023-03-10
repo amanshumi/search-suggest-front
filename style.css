@@ -15,20 +15,33 @@ h1, h2, h3, h4, p, input, a, li{
 
 p {
     text-align: left;
+    font-size: 13px;
 }
 
 li {
+    font-size: 13px;
     padding: 14px;
     border-bottom: 1px solid #cccccc;
 }
 
 section {
-    background: #ffffff;
     border-radius: 8px;
-    width: 50%;
-    margin: 50px auto;
-    padding: 20px;
+    width: 40%;
+    margin: 100px auto;
     border: 2px solid #f4f4f4;
+}
+
+#header{
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+#body{
+    padding: 20px;
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 10px;
 }
 
 .title{
@@ -41,7 +54,7 @@ form{
 }
 
 input{
-    padding: 20px;
-    border-radius: 6px;
-    border: 2px solid #cccccc;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #188152;
 }

@@ -16,6 +16,10 @@ document.getElementById('search-input').addEventListener('keyup', async (e) => {
 
     let inputVal = e.target.value;
 
+    if(inputVal === "" || inputVal === null) {
+        return;
+    }
+
     elementToUpdate.innerHTML = `<p>Loading...</p>`;
 
     fetch("http://localhost:4000/comments")
