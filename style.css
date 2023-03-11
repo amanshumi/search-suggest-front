@@ -50,9 +50,8 @@ section {
 }
 
 .title{
-    text-align: center;
-    font-size: 40px;
-    font-weight: normal;
+    font-size: 26px;
+    padding-bottom: 10px;
 }
 
 form{ 
