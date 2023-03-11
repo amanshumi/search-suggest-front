@@ -3,6 +3,11 @@
     src: url("fonts/montserrat.ttf");
 }
 
+@font-face {
+    font-family: "material";
+    src: url("fonts/materialicons.ttf");
+}
+
 body{ 
     padding: 0;
     margin: 0;
@@ -45,7 +50,9 @@ section {
 }
 
 .title{
-
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
 }
 
 form{ 
@@ -53,8 +60,23 @@ form{
     flex-direction: column;
 }
 
+#input{
+    display: flex;
+    align-items: center;
+    background: #191919;
+    border-radius: 8px;
+}
+
+#input span{
+    color: #ffffff;
+    padding: 10px;
+    font-size: 26px;
+}
+
 input{
     padding: 16px;
     border-radius: 8px;
-    border: 2px solid #188152;
+    border: none;
+    flex-basis: 100%;
+    border: 2px solid #0099ff;
 }
